@@ -106,8 +106,17 @@ body{
 // media screen css
 // *********
 @media screen and (max-width: 765px){
+  
   .center-app{
     padding: 15% 0 5%;
+  }
+
+  .text-dec{
+    font-weight: bold;
+    opacity: 60%;
+  }
+  .text-size{
+    font-size: 25px;
   }
 
   .moonoz-img{
