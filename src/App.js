@@ -7,7 +7,7 @@ export default function App() {
   return (
     <Container className="background-gradient" fluid>
       <Container className="center-app">
-        <div className="moonoz-img btn-shadow">
+        <div className="moonoz-img">
           <img src={Moonoz} alt="Joel Munoz Moonoz" />
         </div>
         <div className="">
