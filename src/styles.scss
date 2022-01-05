@@ -1,0 +1,122 @@
+$red: #7f7fd5;
+$main-white:#ffff;
+* {
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+.center-app{
+  // margin-top: 50%;
+  padding: 50% 0%;
+  width: 300px;
+}
+
+// *******
+// image 
+// ******
+.moonoz-img{
+  margin-bottom: 10px;
+  img {
+    width: 50%;
+    height: auto;
+    border-width: 10px;
+    box-shadow: -50px -20px 40px rgba(227, 135, 255, 0.25),
+    0px 50px 40px rgba(255, 219, 57, 0.3),
+    50px -20px 40px rgba(118, 255, 255, 0.3),
+    0 0 2pt 4pt rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.text-dec{
+  color: #f2f6f9;
+  opacity: 60%;
+  .text-size{
+    font-size: 25px;
+
+  }
+}
+.name-display{
+  color:#000;
+  // text-items: center;
+  // width: 40%;
+  backdrop-filter: blur(20px) saturate(153%);
+    -webkit-backdrop-filter: blur(20px) saturate(153%);
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+    // animation: float 3s ease-in-out infinite;
+
+}
+
+
+// *******
+// button 
+// ******
+button{
+  margin-top:1%;
+}
+
+
+
+
+// background gradient
+
+// 
+// ********************
+//  background gradient
+// ********************
+.background-gradient{
+  // background: linear-gradient(146deg, #7f7fd5, #86a8e7, #91eae4);
+  background: linear-gradient(146deg, #3E5151, #DECBA4, );
+  // background: linear-gradient(-45deg, #16222A, #3A6073, );
+  // background: linear-gradient(90deg, #0f2027, #203a43, #2c5364 );
+  background-size: 600% 600%;
+ 
+  
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+  height: 100%;
+  width: 100%;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@keyframes float{
+  0%{
+    transform: translateY(0px);
+    box-shadow: 0 5px 15px 0px rgb(0 0 0 / 11%);
+  }
+  50%{
+    transform: translateY(10px);
+    box-shadow: 0 25px 15px 0px rgb(0 0 0 / 4%);
+  }
+  100%{
+    transform: translateY(0px);
+    box-shadow: 0 5px 15px 0px rgb(0 0 0 / 14%);
+  }
+}
