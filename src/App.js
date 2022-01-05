@@ -22,11 +22,13 @@ export default function App() {
         />
         <BTN
           link={"https://github.com/jmoonoz"}
-          icon={"AiFillLinkedin"}
           btnName={"GitHub"}
         />
 
-        <BTN link={"//www.instagram.com/moonozdisenoz/?hl=en"} btnName={"IG"} />
+        <BTN 
+        link={"//www.instagram.com/moonozdisenoz/?hl=en"} 
+        btnName={"Instagram"} 
+        />
       </Container>
     </Container>
   );
